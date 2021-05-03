@@ -1,37 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// vector<int> tree[200001] ;
-
-// void solve(vector<int>& ans, int src, int par) {
-//     int res = 0;
-//     for(auto child : tree[src]) {
-//         if(child != par) {
-//             solve(ans, child, src) ;
-//             res += (1 + ans[child]) ;
-//         }
-//     }
-//     ans[src] = res;
-// }
-
-
-// int main() {
-//     int n;
-//     cin >> n ;
-//     vector<int> ans(n+1);
-//     for(int i = 2 ; i <= n ; i++ ){
-//         int x ;
-//         cin >> x ;
-//         tree[i].push_back(x) ;
-//         tree[x].push_back(i) ;
-//     }
-//     solve(ans, 1, 0) ;
-//     for(int i = 1 ; i <= n; i++) {
-//         cout << ans[i] << ' ' ;
-//     }
-// }
-
-
 vector<int> tree[200001] ;
 vector<int> ans;
 
